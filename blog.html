@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat:wght@300;400;800&family=Open+Sans:ital@1&family=Poppins:wght@100;200;300;400;600;700&family=Varela+Round&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <!-- HERO SECTION -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>               
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs For 2023</h1>
+    </section>
+    <!-- blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg">
+                <h2>Our Certificates & Online Programs For 2023</h2>
+                <p>Fundamentals of Management
+
+                    As a part of Management Development Programs (MDPs), the Certificate Program in Fundamentals of Management is offered by Eduford Pune as an online certificate program. This is being offered in a 100 % online synchronous mode and will be taught ‘live’.</p>
+                <br>
+                <p>Design Thinking
+
+                    This course will be an introduction to employees and managers in a company an experience of an empathy led approach to creativity in the context of an organization. The facilitator will use live projects to demonstrate and apply the method.</p>
+                <br>
+                <p>Marketing Analytics
+
+                    As a part of the Management Development Programme, Marketing Analytics offered by SIBM Pune is an online certificate programme. The course is designed to provide participants with the knowledge in marketing analytics, which can be used in strategic decision-making in turbulent business environment.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerse</span>
+                <span>30</span>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- FACILITIES -->
+
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>ABOUT Eduford The trust "Eduford, Pune" was established in 1967 by Hon. Late Shri. Shankarraoji Chavan, Former Home Minister, Govt. of India as the "Founder President". The trust had started its activity with the objective of providing hostel or similar accommodation in Pune to the students. This trust is established through the inspiration of socially and educationally charged personalities, with motto "Yethe Bahutanche Hit" (Welfare of Masses). Mass education, co-education and dedication towards overall development of the region are the watchwords of the trust. At present the trust has four educational campuses at Deccan, Karvenagar, Lohgaon and Kalewadi. At its various educational campuses the trust has created excellent facilities of education catering to Management, Law, Commerce, Pharmacy, Engineering, Architecture, etc, which provide excellent education to more than 12000 students
+
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/aditya.kale.3726" target="_blank"><i class="fa-brands fa-square-facebook" ></i></a>
+            <a href="https://twitter.com/Aditya_Kale19" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/aditya.kale_19/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/adityakale19/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <p>Made with <i class="fa-solid fa-heart"></i> by Aditya Kale</p>
+        </div>
+    </section>
+
+    <!-- JAVASCRIPT FOR TOGGLE MENU -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
